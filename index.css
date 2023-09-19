@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 5%;
+}
+
+footer {
+    text-align: center;
+}
+
+.content {
+    margin: 0px;
+    display: inline-block;
+}
+
+.highlight {
+    background-color: rgb(189, 188, 188);
+    border-radius: 5px;
+    padding: 3%;
+    margin-right: -200%;
+    margin-bottom: 5%;
+}
+
+.sidebar {
+    margin-left: 50%;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    border-left: 1px solid gray;
+    padding-left: 2%;
+}
+
+.sidebar .text {
+    color: gray;
+}
+
+hr {
+    margin-top: -0.05%;
+}
