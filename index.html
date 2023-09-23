@@ -10,44 +10,48 @@
     <header>
         <h1>Welcome to My Blog</h1>
         <nav>
-            <button><b>Home</b></button>
-            <button><b>Categories</b></button>
-            <button><b>About</b></button>
-            <button><b>Contact</b></button>
+            <a href="">Home</a>
+            <a href="">Categories</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
         </nav>
     </header>
     <main>
         <span class="content">
-            <div>
+            <section>
                 <h2>Post Title 1</h2>
-                <div class="highlight">
+                <div class="content--highlight">
                     <div><i>Published on September 12, 2023 by John Doe</i></div>
                 </div>
-                <div class="text">This is the content of the blog post...</div>
-                <div class="text">More content goes here...</div>
-            </div>
-            <div>
+                <p class="content--text">This is the content of the blog post...</p>
+                <p class="content--text">More content goes here...</p>
+            </section>
+            <section>
                 <h2>Post Title 2</h2>
-                <div class="highlight">
+                <div class="content--highlight">
                     <div><i>Published on September 10, 2023 by Jane Smith</i></div>
                 </div>
-                <div class="text">This is another blog post</div>
-                <div class="text">More content goes here...</div>
-            </div>
+                <p class="content--text">This is another blog post</p>
+                <p class="content--text">More content goes here...</p>
+            </section>
         </span>
         <span class="sidebar">
-            <div>
+            <section>
                 <h2>Recent Posts</h2>
-                <div class="text">Post title 1</div>
-                <div class="text">Post title 2</div>
-                <div class="text">Post title 3</div>
-            </div>
-            <div>
+                <nav>
+                    <a href="">Post title 1</a>
+                    <a href="">Post title 2</a>
+                    <a href="">Post title 3</a>
+                </nav>
+            </section>
+            <section>
                 <h2>Categories</h2>
-                <div class="text">Category 1</div>
-                <div class="text">Category 2</div>
-                <div class="text" style="padding-bottom: 10%;">Category 3</div>
-            </div>
+                <nav>
+                    <a href="">Category 1</a>
+                    <a href="">Category 2</a>
+                    <a href="" style="padding-bottom: 2vh;">Category 3</a>
+                </nav>
+            </section>
         </span>
     </main>
     <hr>
