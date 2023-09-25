@@ -9,24 +9,26 @@
 <body>
     <header>
         <h1>Welcome to My Blog</h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Categories</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+        <nav class="top-navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </nav>
     </header>
-    <main>
-        <span class="content">
-            <section>
+    <main class="main-content">
+        <section>
+            <article>
                 <h2>Post Title 1</h2>
                 <div class="content--highlight">
                     <div><i>Published on September 12, 2023 by John Doe</i></div>
                 </div>
                 <p class="content--text">This is the content of the blog post...</p>
                 <p class="content--text">More content goes here...</p>
-            </section>
-            <section>
+            </article>
+        </section>
+        <section>
+            <article>
                 <h2>Post Title 2</h2>
                 <div class="content--highlight">
                     <div><i>Published on September 10, 2023 by Jane Smith</i></div>
@@ -34,27 +36,26 @@
                 <p class="content--text">This is another blog post</p>
                 <p class="content--text">More content goes here...</p>
             </section>
-        </span>
-        <span class="sidebar">
+            </article>
+        <aside>
             <section>
                 <h2>Recent Posts</h2>
-                <nav>
-                    <a href="">Post title 1</a>
-                    <a href="">Post title 2</a>
-                    <a href="">Post title 3</a>
-                </nav>
+                <ul>
+                    <li><a href="#">Post title 1</a></li>
+                    <li><a href="#">Post title 2</a></li>
+                    <li><a href="#">Post title 3</a></li>
+                </ul>
             </section>
             <section>
                 <h2>Categories</h2>
-                <nav>
-                    <a href="">Category 1</a>
-                    <a href="">Category 2</a>
-                    <a href="" style="padding-bottom: 2vh;">Category 3</a>
-                </nav>
+                <ul>
+                    <li><a href="#"></a>Category 1</li>
+                    <li><a href="#"></a>Category 2</li>
+                    <li><a href="#"></a>Category 3</li>
+                </ul>
             </section>
-        </span>
+        </aside>
     </main>
-    <hr>
-    <footer>© 2023 My Blog. All rights reserved</footer>
+    <footer class="footer">&copy; 2023 My Blog. All rights reserved</footer>
 </body>
 </html>
